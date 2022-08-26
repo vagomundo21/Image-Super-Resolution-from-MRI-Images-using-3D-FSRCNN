@@ -1,16 +1,16 @@
 # IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES
 ## About files
-- [2DSRCNN.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/2DSRCNN.ipynb) : Implementation of 2D SRCNN for testing
-- [3DSRCNN_32x32.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/3DSRCNN_32x32.ipynb) : Implementation of 2D SRCNN for testing
-- [3DFSRCNN_56_16.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/3DFSRCNN_56_16.ipynb) : Implementation of 2D SRCNN for testing
-- [choosing_best_setting.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/choosing_best_setting.ipynb) : Implemented different settings of our model to find the best.
-- [testing.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/testing.ipynb) : Notebook which has testing results for all three models.
-- [history_56_16_relu_2.p](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/history_56_16_relu_2.p) : Pickle file which has training history of our model.
-- [fsrcnn_56_16_relu_2.h5](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/fsrcnn_56_16_relu_2.h5) : Our model.
-- [nparray_to_nii.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/nparray_to_nii.ipynb) : This code returns super-resolved numpy array to a medical(.nii.gz) file format.
+- [2DSRCNN.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/2DSRCNN.ipynb) : Implementation of 2D SRCNN for testing
+- [3DSRCNN_32x32.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/3DSRCNN_32x32.ipynb) : Implementation of 2D SRCNN for testing
+- [3DSRCNN_32x32.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/3DFSRCNN_56_16.ipynb) : Implementation of 2D SRCNN for testing
+- [choosing_best_settingv.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/choosing_best_setting.ipynb) : Implemented different settings of our model to find the best.
+- [testing.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/testing.ipynb) : Notebook which has testing results for all three models.
+- [history_56_16_relu_2.p](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/history_56_16_relu_2.p) : Pickle file which has training history of our model.
+- [fsrcnn_56_16_relu_2.h5](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/fsrcnn_56_16_relu_2.h5) : Our model.
+- [nparray_to_nii.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/nparray_to_nii.ipynb) : This code returns super-resolved numpy array to a medical(.nii.gz) file format.
 
 ## Testing the model
-1. Open [3DFSRCNN_56_16.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/3DFSRCNN_56_16.ipynb).
+1. Open [3DFSRCNN_56_16.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/3DFSRCNN_56_16.ipynb).
 2. Go to **"Training >> Importing libraries."** section in that file.
 3. Execute following code using [Google Colab](https://colab.research.google.com/) or any suitable alternatives.
 > In case of colab use python 3 and GPU in runtime.
@@ -96,4 +96,4 @@ for i in range(4):
 5. About variables:
 - *lr* : 3d np array of low resolution input scan
 - *sr* : 3d np array of super-resolved scan
-6. The super-resolved 3d numpy array can be converted to medical file format using [nparray_to_nii.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/nparray_to_nii.ipynb).
+6. The super-resolved 3d numpy array can be converted to medical file format using [nparray_to_nii.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/nparray_to_nii.ipynb).
