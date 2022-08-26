@@ -10,7 +10,7 @@
 - [nparray_to_nii.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/nparray_to_nii.ipynb) : This code returns super-resolved numpy array to a medical(.nii.gz) file format.
 
 ## Testing the model
-1. Open [https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/3DFSRCNN_56_16.ipynb).
+1. Open [3DFSRCNN_56_16.ipynb](https://github.com/praneya0028/Image-Super-Resolution-from-MRI-Images-using-3D-FSRCNN/blob/master/3DFSRCNN_56_16.ipynb).
 2. Go to **"Training >> Importing libraries"** section in that file.
 3. Execute following code using [Google Colab](https://colab.research.google.com/) or any alternatives which you have.
 > If you use colab use python3 and GPU in runtime.
