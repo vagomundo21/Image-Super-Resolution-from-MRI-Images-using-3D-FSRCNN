@@ -11,9 +11,9 @@
 
 ## Testing the model
 1. Open [3DFSRCNN_56_16.ipynb](https://github.com/Ramrao-Adik-Institute-of-Technology/IMAGE-SUPER-RESOLUTION-FOR-MRI-IMAGES/blob/master/3DFSRCNN_56_16.ipynb).
-2. Go to **"Training >> Importing libraries."** section in that file.
-3. Execute following code using [Google Colab](https://colab.research.google.com/) or any suitable alternatives.
-> In case of colab use python 3 and GPU in runtime.
+2. Go to **"Training >> Importing libraries"** section in that file.
+3. Execute following code using [Google Colab](https://colab.research.google.com/) or any alternatives which you have.
+> If you use colab use python3 and GPU in runtime.
 ```
 %tensorflow_version 1.x
 from skimage import measure, transform
@@ -24,7 +24,7 @@ import numpy as np
 import glob
 import math
 ```
-> If the libraries are missing, please install it using pip.
+> If any libraries are missing, install it using pip.
 4. Go to **"Using the model"** section in that file.
 5. Execute all the cells in that section.
 ```
@@ -92,7 +92,7 @@ for i in range(4):
     x = x + 32
     x1 = x1 + 64
 ```
-> The above cells are assuming the low-res scan dimension is 128x160x160. For other dimension, small changes needs to be done.
+> The above cells are assuming the low resolution scan dimension is 128x160x160. For other dimension, small changes are required.
 5. About variables:
 - *lr* : 3d np array of low resolution input scan
 - *sr* : 3d np array of super-resolved scan
